@@ -3,7 +3,7 @@
   "displayName": "PlantUML",
   "description": "Rich PlantUML support for Visual Studio Code.",
   "icon": "images/icon.png",
-  "version": "2.18.1",
+  "version": "2.19.0",
   "publisher": "jebbs",
   "engines": {
     "vscode": "^1.57.0"
@@ -391,16 +391,17 @@
     "buildsyntax": "node ./scripts/build-syntax.js"
   },
   "devDependencies": {
-    "@types/mocha": "^9.1.1",
-    "@types/node": "^16.0.0",
-    "@types/vscode": "^1.57.0",
-    "js-yaml": "^3.13.1",
-    "markdown-it": "^13.0.1",
-    "plist": "^3.0.2",
-    "typescript": "^4.8.2"
+    "@types/mocha": "^10.0.9",
+    "@types/node": "^22.8.1",
+    "@types/vscode": "^1.94.0",
+    "@types/codemirror": "^5.60.15",
+    "js-yaml": "^4.1.0",
+    "markdown-it": "^14.1.0",
+    "plist": "^3.1.0",
+    "typescript": "^5.6.3"
   },
   "dependencies": {
-    "linq-collections": "*",
-    "vscode-nls": "^2.0.2"
+    "linq-collections": "1.0.254",
+    "vscode-nls": "^5.2.0"
   }
 }

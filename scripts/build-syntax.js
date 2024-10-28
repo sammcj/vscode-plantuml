@@ -6,7 +6,7 @@ const inputYamlTMLanguageFile = "./syntaxes/plantuml.yaml-tmLanguage";
 const outputTMLanguageFile =  "./syntaxes/plantuml.tmLanguage";
 
 const yamlTMLanguageText = fs.readFileSync(inputYamlTMLanguageFile, "utf8");
-const data = yaml.safeLoad(yamlTMLanguageText);
+const data = yaml.load(yamlTMLanguageText);
 
 const tmLanguageText = plist.build(data);
 fs.writeFileSync(outputTMLanguageFile, tmLanguageText, "utf8");
